@@ -16,5 +16,5 @@ def submitquery(request):
     except:
         mydictionary={
             "error": True
-        }
+        } 
         return render(request,'index.html',context=mydictionary)
